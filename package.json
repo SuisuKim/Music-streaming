@@ -1,0 +1,15 @@
+{
+  "name": "torture4",
+  "version": "1.0.0",
+  "description": "Torture#4",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite"
+  },
+  "author": "Suyeon Kim",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Removing horizontal scroll -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+    <!-- EXTERNAL CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- RESET CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.css">
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Melon</title>
+  </head>
+  <body>
+    <header>
+      <!-- NAVIGATION BAR -->
+      <nav class="navbar">
+        <!-- LOGO -->
+        <a href="#" id="logo"><img src="./asset/image/Logo.svg" alt="logo"></a>
+        <!-- MENU -->
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#logo" class="nav-link">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a href="#mostPopular" class="nav-link">MOST POPULAR</a>
+          </li>
+          <li class="nav-item">
+            <a href="#categories" class="nav-link">CATEGORIES</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">CONTACT</a>
+          </li>
+        </ul>
+        <!-- HAMBURGER MENU -->
+        <a href="#" class="hamburger">
+          <span class="bar"></span>  
+          <span class="bar"></span>  
+          <span class="bar"></span>  
+        </a>
+      </nav>
+    </header>
+    <main>
+      <!-- BACK TO THE TOP BUTTON -->
+      <a href="#logo" id="top-button"></a>
+      <!-- HERO IMAGE -->
+      <section id="hero">
+        <img src="./asset/image/hero.jpg" alt="hero image">
+      </section>
+      <!-- MOST POPULAR -->
+      <section id="mostPopular">
+        <a href="#"><h1>MOST POPULAR</h1></a>
+        <div>
+          <a href="#">
+            <article id="firstPop">
+              <img src="./asset/image/popular1.jpg" alt="Number One popular">
+              <h1>We Don't Talk About Bruno</h1>
+              <p>Encanto Cast</p>
+            </article>
+          </a>
+          <div id="secondRowPop"> 
+            <a href="#">
+              <article id="secondPop">
+                <img src="./asset/image/popular2.jpg" alt="Number two popular">
+                <h1>Do We Have A Problem?</h1>
+                <p>Nicki  Minaj X Lil Baby</p>
+              </article>
+            </a>
+            <a href="#">
+              <article id="thirdPop">
+                <img src="./asset/image/popular3.jpg" alt="Number three popular">
+                <h1>Easy On Me</h1>
+                <p>Adele</p>
+              </article>
+            </a>
+            <a href="#">
+              <article id="forthPop">
+                <img src="./asset/image/popular4.png" alt="Number four popular">
+                <h1>Heat Waves</h1>
+                <p>Glass Animals</p>
+              </article>
+            </a>
+            <a href="#">
+              <article id="fifthPop">
+                <img src="./asset/image/popular5.jpg" alt="Number five popular">
+                <h1>Stay</h1>
+                <p>The Kid LAROL X Justin Biber</p>
+              </article>
+            </a>
+          </div>  
+        </div>
+      </section>
+      <!-- CATEGORIES -->
+      <section id="categories">
+        <h1>CATEGORIES</h1>
+        <div>
+          <a href="#">
+            <article id="firstCate">
+              <img src="./asset/image/category 1.jpg" alt="R&B">
+              <h1>R&B</h1>
+              <p>Feel the grove!</p>
+            </article>
+          </a>
+          <a href="#">
+            <article id="secondCate">
+              <img src="./asset/image/category 2.jpg" alt="hip-hop">
+              <h1>HOP-HOP</h1>
+              <p>get the swag!</p>
+            </article>
+          </a>
+          <a href="#">
+            <article id="thirdCate">
+              <img src="./asset/image/category 3.jpg" alt="rock">
+              <h1>ROCK</h1>
+              <p>Rock and roll baby!</p>
+            </article>
+          </a>
+          <a href="#">
+            <article id="forthCate">
+              <img src="./asset/image/category 4.jpg" alt="k-pop">
+              <h1>K-POP</h1>
+              <p>So addictive! </p>
+            </article>
+          </a>
+          <a href="#">
+            <article id="fifthCate">
+              <img src="./asset/image/category 5.jpg" alt="pop">
+              <h1>POP</h1>
+              <p>Pop it!</p>
+            </article>
+          </a>    
+          <a href="#">
+            <article id="sixthCate">
+              <img src="./asset/image/category 6.jpg" alt="more">
+              <h1>MORE</h1>
+              <p>Explore more!</p>
+            </article>
+          </a>    
+        </div>
+      </section>
+      <!-- FOOTER -->
+      <!-- CONTACT FORM -->
+      <section id="contact">
+        <h1>CONTACT US!</h1>
+        <h2>Share your excitement with us!</h2>
+        <form action="#" method="post">
+          <fieldset>
+            <label for="name">YOUR NAME <span>*</span></label>
+            <input type="text" id="name" required>
+          </fieldset>
+          <fieldset>
+            <label for="email">YOUR EMAIL <span>*</span></label>
+            <input type="email" id="email" required>
+          </fieldset>
+          <fieldset>
+            <legend>YOUR MESSAGE</legend>
+            <textarea name="text" id="test" cols="40" rows="7" placeholder="Type here!"></textarea>
+          </fieldset>
+          <input type="submit" id="submit" value="SEND NOW">
+        </form>
+      </section>
+      <section id="contact-info">
+        <div>
+          <p id="myName">Melon</p>
+          <p id="myMail">meloncustomerservice@gmail.com</p>
+        </div>
+      </section>
+    </main>
+    <!-- JS -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
